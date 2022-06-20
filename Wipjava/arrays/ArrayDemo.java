@@ -15,8 +15,8 @@ public class ArrayDemo {
 
 
         //for each loop
-        for(int temp:a){
-            System.out.println(temp);
-        }
+        // for(int temp:a){
+        //     System.out.println(temp);
+        // }
     }
 }
