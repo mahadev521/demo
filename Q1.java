@@ -8,18 +8,28 @@ public class Q1 {
     
    
     public static int fun(int input1,int input2,int input3,int input4, int input5){
-        int sum=0;
+        int ssum=0,unsum=0;
         if(func(input1))
-        sum+=input1;
+        unsum+=input1;
+        else
+        ssum+=input1;
         if(func(input2))
-        sum+=input2;
+        unsum+=input2;
+        else
+        ssum+=input2;
         if(func(input3))
-        sum+=input3;
+        unsum+=input3;
+        else
+        ssum+=input3;
         if(func(input4))
-        sum+=input4;
+        unsum+=input4;
+        else
+        ssum+=input4;
         if(func(input5))
-        sum+=input5;
-        return sum;
+        unsum+=input5;
+        else
+        ssum+=input5;
+        return ssum-unsum;
     }
     public static boolean func(int n){
         int arr[]={0,0,0,0,0,0,0,0,0,0};
