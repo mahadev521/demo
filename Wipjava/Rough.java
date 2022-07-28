@@ -27,13 +27,33 @@ import java.util.*;
 
 public class Rough {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = new String(sc.next());
-        String st[]=s.split(" ");
-        for(String s1 : st) {
-            System.out.println(s1);
-        }
-        System.out.println(st.length);
+        int i;
+        System.out.println(i);
+        // String s = new String("Mahadev");
+        // System.out.println(s.charAt(2));
+        
+        // Object o = new LinkedHashMap();
+        // System.out.print((o instanceof Map)+",");
+        // System.out.print(o instanceof SortedMap);
+
+        // Map <String,Integer> scoresMap = new HashMap<String,Integer>();
+        // scoresMap.put("Ramesh", 70);
+        // scoresMap.put("Suresh", 60);
+        // scoresMap.put("Ganesh", 65);
+        // System.out.println(scoresMap.keySet());
+
+
+
+
+
+
+        // Scanner sc = new Scanner(System.in);
+        // String s = new String(sc.next());
+        // String st[]=s.split(" ");
+        // for(String s1 : st) {
+        //     System.out.println(s1);
+        // }
+        // System.out.println(st.length);
 
         // Grandchild gc = new Grandchild(5);
         // System.out.println(gc.r);
